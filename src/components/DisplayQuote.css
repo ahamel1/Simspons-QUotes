@@ -1,0 +1,38 @@
+.Btn {
+    display: flex;
+    padding: 1.25em;
+    width: 400px;
+    border: 1px solid yellow;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+    font-size: 1.2em;
+    flex-direction: column;
+    
+    margin-left: 2em;
+  }
+  
+ .Btn img {
+    display: flex;
+    max-height: 120px;
+    margin-right: 1.5rem;
+  }
+  
+ .Btn blockquote {
+    margin: 0 0 1rem 0;
+  }
+  
+ .Btn figcaption p {
+    margin: 0.125rem 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  
+ .Btn figcaption p span {
+    color: #eee;
+  }
+  
+ .Btn figcaption p span.is-favorite {
+    color: #ecc94b;
+  }
+

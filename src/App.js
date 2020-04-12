@@ -23,7 +23,7 @@ class App extends React.Component {
         this.setState({
           quote: data[0].quote,
           character: data[0].character,
-          image: data[0].image,
+          image:data[0].image,
         });
       });
   }

@@ -14,7 +14,6 @@ const DisplayQuote = ({simpsonsQuote}) => {
                 <cite>{simpsonsQuote.character}</cite>
             </p>            
         </figcaption>
-        
     </figure>
     );
 }
